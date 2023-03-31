@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCallActivity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:text="ButtonCallActivity2"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCallActivity3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ButtonCallActivity3"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="@+id/btnCallActivity2"
+        app:layout_constraintTop_toBottomOf="@+id/btnCallActivity2" />
+
+    <Button
+        android:id="@+id/btnCallActivity4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="ButtonCallActivity4"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="@+id/btnCallActivity3"
+        app:layout_constraintTop_toBottomOf="@+id/btnCallActivity3" />
+
+    <Button
+        android:id="@+id/btnCallActivity5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="ButtonCallActivity5"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="@+id/btnCallActivity4"
+        app:layout_constraintTop_toBottomOf="@+id/btnCallActivity4" />
+
+    <Button
+        android:id="@+id/btnCallActivity6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="ButtonCallActivity6"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="@+id/btnCallActivity5"
+        app:layout_constraintTop_toBottomOf="@+id/btnCallActivity5" />
+
+    <Button
+        android:id="@+id/btnCallActivity7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="ButtonCallActivity7"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="@+id/btnCallActivity6"
+        app:layout_constraintTop_toBottomOf="@+id/btnCallActivity6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
